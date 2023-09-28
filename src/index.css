@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "Ubuntu-400";
+    src: url("assets/fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-600";
+    src: url("/assets/fonts/Ubuntu-Medium.ttf");
+}
+@font-face {
+    font-family: "Ubuntu-800";
+    src: url("/assets/fonts/Ubuntu-Bold.ttf");
+}

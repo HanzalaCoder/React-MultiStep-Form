@@ -1,13 +1,12 @@
-
-
-
+import MultieStepForm from "./components/MultieStepForm"
 
 function App() {
 
-  return (
-    <>
-    <h1 className='text-center text-red-600 uppercase text-3xl'>hello world</h1>
-    </>
+
+  return(
+    <section className="bg-Magnolia" >
+      <MultieStepForm />
+    </section>
   )
 }
 
