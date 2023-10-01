@@ -1,7 +1,7 @@
 
 const Headeer = ({step}) => {
   return (
-    <header className="bg-[url('./assets/images/bg-sidebar-mobile.svg')] lg:bg-[url('./assets/images/bg-sidebar-desktop.svg')]  h-[20vh] bg-no-repeat bg-cover  lg:h-[38rem] lg:bg-bottom  relative lg:w-[30%] lg:rounded-2xl  " >
+    <header className="bg-[url('assets/images/bg-sidebar-mobile.svg')] lg:bg-[url('assets/images/bg-sidebar-desktop.svg')]  h-[20vh] bg-no-repeat bg-cover  lg:h-[38rem] lg:bg-bottom  relative lg:w-[30%] lg:rounded-2xl  " >
         <ul className="absolute inset-0 -top-8 flex  justify-center gap-6 sm:gap-10 lg:flex-col lg:left-[20%] lg:top-12 lg:justify-start" >
             <li className="flex  items-center gap-4" > 
                 <div className={`grid place-items-center w-[40px] h-[40px] border-2 border-white rounded-full text-white font-semibold ${step === 1 ? "bg-LightBlue text-gray-950 border-none": ""} `} >

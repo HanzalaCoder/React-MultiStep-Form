@@ -9,9 +9,9 @@
 }
 @font-face {
     font-family: "Ubuntu-600";
-    src: url("/assets/fonts/Ubuntu-Medium.ttf");
+    src: url("assets/fonts/Ubuntu-Medium.ttf");
 }
 @font-face {
     font-family: "Ubuntu-800";
-    src: url("/assets/fonts/Ubuntu-Bold.ttf");
+    src: url("assets/fonts/Ubuntu-Bold.ttf");
 }
