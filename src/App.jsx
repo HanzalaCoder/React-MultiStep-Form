@@ -4,7 +4,7 @@ function App() {
 
 
   return(
-    <section className="bg-Magnolia" >
+    <section className="bg-Magnolia " >
       <MultieStepForm />
     </section>
   )

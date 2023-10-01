@@ -69,8 +69,8 @@ const MultieStepForm = () => {
   }
 
   return (
-    <div className="lg:pt-[3%]">
-        <section className=" lg:max-w-4xl xl:max-w-5xl lg:mx-auto lg:flex   lg:bg-white shadow-2xl rounded-2xl lg:relative">
+    <div className="lg:pt-[3%] bg-Magnolia h-[100vh]">
+        <section className=" lg:max-w-4xl xl:max-w-5xl lg:mx-auto lg:flex    lg:bg-white shadow-2xl rounded-2xl lg:relative">
           <Header step={step} />
           <form onSubmit={handleSubmit(submitData)} className="lg:w-[50%] mx-auto flex flex-col justify-between gap-8">
             <div className="mt-10 ">
